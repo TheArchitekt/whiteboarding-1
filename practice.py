@@ -82,3 +82,9 @@ print('---------------')
 print('Largest Num')
 
 def largest_num(list_of_numbers):
+    max = 0
+    for num in list_of_numbers:
+        if num < max:
+            max = num
+
+    return max
