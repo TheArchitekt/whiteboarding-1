@@ -36,6 +36,12 @@ print('---------------')
 
 # Write a function that takes in a list and an item. It should return True if the list contains the item. Otherwise, return False.
 
+def contains_item(list_item, chosen_item):
+    if chosen_item in list_item:
+        return True
+
+    return False
+
 # Write a function that takes in a string and returns the length of that string. You cannot use the len function.
 
 # Write a function that takes in a sentence as a string. The function should print the length of each word in the sentence.
