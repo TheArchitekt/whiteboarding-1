@@ -2,14 +2,26 @@
 print('Less Than 10')
 
 def less_than_10(list_num):
+    """Function will take in a list of numbers and print each less than 10"""
     for num in list_num:
         if num < 10:
             print(num)
+
 list_of_numbers = [1, 40, 4, 7, 73, 12, 80, 110]
 less_than_10(list_of_numbers)
 print('---------------')
-# Write a function that takes in a list of words. For each word, the function should print a tuple of (first_letter_of_word, word).
 
+# Write a function that takes in a list of words. For each word, the function should print a tuple of (first_letter_of_word, word).
+print('Word Tupe')
+
+def word_tupe(list_words):
+    """Function will take in a list and print a tuple containing the 1st letter and the word"""
+    for word in list_words:
+        print((word[0], word ))
+
+list_of_words = ['bull', 'noon', 'raisin', 'fairy', 'lilly']
+word_tupe(list_of_words)
+print('---------------')
 # Write a function that takes in a list of numbers. It should print every other number, starting with the number at index 0
 
 # Write a function that takes in a list and an item. It should return True if the list contains the item. Otherwise, return False.
