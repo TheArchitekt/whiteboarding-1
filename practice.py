@@ -54,6 +54,7 @@ print('---------------')
 print('String Length')
 
 def string_length(string):
+    """Function takes in a string and returns the length of the string"""
     count = 0
     for char in string:
         count += 1
