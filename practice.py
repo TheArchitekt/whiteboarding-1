@@ -51,12 +51,18 @@ print(contains_item(list_of_items, 'bucket'))
 
 print('---------------')
 # Write a function that takes in a string and returns the length of that string. You cannot use the len function.
+print('String Length')
 
 def string_length(string):
     count = 0
     for char in string:
         count += 1
     return count
+
+string_length('bob')
+string_length('videographer')
+
+print('---------------')
 
 # Write a function that takes in a sentence as a string. The function should print the length of each word in the sentence.
 #  Your sentence will not contain any punctuation.
