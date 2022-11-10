@@ -27,7 +27,7 @@ print('---------------')
 print('Every Other')
 
 def every_other(list_num):
-    """Function wil take in a list if numbers and print every other number"""
+    """Function wil take in a list of numbers and print every other number"""
     for num in list_num[::2]:
         print(num)
 
@@ -35,13 +35,21 @@ every_other(list_of_numbers)
 print('---------------')
 
 # Write a function that takes in a list and an item. It should return True if the list contains the item. Otherwise, return False.
+print('Contains Item')
 
 def contains_item(list_item, chosen_item):
+    """Function takes in a list of items and a item, then returns True or False depending on if it's in the list"""
     if chosen_item in list_item:
         return True
 
     return False
 
+list_of_items = ['brush', 'jacket', 'wrench', 'bottle', 'shovel']
+
+print(contains_item(list_of_items, 'brush'))
+print(contains_item(list_of_items, 'bucket'))
+
+print('---------------')
 # Write a function that takes in a string and returns the length of that string. You cannot use the len function.
 
 # Write a function that takes in a sentence as a string. The function should print the length of each word in the sentence.
