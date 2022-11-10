@@ -7,7 +7,7 @@ def less_than_10(list_num):
         if num < 10:
             print(num)
 
-list_of_numbers = [1, 40, 4, 7, 73, 12, 80, 110]
+list_of_numbers = [1, 40, 4, 7, 73, 1345, 12, 80, 110]
 less_than_10(list_of_numbers)
 print('---------------')
 
@@ -84,7 +84,10 @@ print('Largest Num')
 def largest_num(list_of_numbers):
     max = 0
     for num in list_of_numbers:
-        if num < max:
+        if num > max:
             max = num
 
     return max
+
+print(largest_num(list_of_numbers))
+print('---------------')
