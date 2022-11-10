@@ -60,8 +60,8 @@ def string_length(string):
         count += 1
     return count
 
-string_length('bob')
-string_length('videographer')
+print(string_length('bob'))
+print(string_length('videographer'))
 
 print('---------------')
 
