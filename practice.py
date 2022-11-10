@@ -15,7 +15,7 @@ print('---------------')
 print('Word Tupe')
 
 def word_tupe(list_words):
-    """Function will take in a list and print a tuple containing the 1st letter and the word"""
+    """Function will take in a list of words and print a tuple containing the 1st letter and the word"""
     for word in list_words:
         print((word[0], word ))
 
@@ -23,6 +23,10 @@ list_of_words = ['bull', 'noon', 'raisin', 'fairy', 'lilly']
 word_tupe(list_of_words)
 print('---------------')
 # Write a function that takes in a list of numbers. It should print every other number, starting with the number at index 0
+def every_other(list_num):
+    """Function wil take in a list if numbers and print every other number"""
+    for num in list_num[::2]:
+        print(num)
 
 # Write a function that takes in a list and an item. It should return True if the list contains the item. Otherwise, return False.
 
