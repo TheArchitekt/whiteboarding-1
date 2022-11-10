@@ -67,5 +67,18 @@ print('---------------')
 
 # Write a function that takes in a sentence as a string. The function should print the length of each word in the sentence.
 #  Your sentence will not contain any punctuation.
+print('Each Word Length')
+
+def each_word_length(sentence):
+    sentence = sentence.split(' ')
+    for word in sentence:
+        print(len(word))
+
+phrase = 'The bee is looking for pollen in the field'
+each_word_length(phrase)
+print('---------------')
 
 # Write a function that takes in a list of numbers and returns the largest number in the list. You cannot use the max function.
+print('Largest Num')
+
+def largest_num(list_of_numbers):
