@@ -22,11 +22,17 @@ def word_tupe(list_words):
 list_of_words = ['bull', 'noon', 'raisin', 'fairy', 'lilly']
 word_tupe(list_of_words)
 print('---------------')
+
 # Write a function that takes in a list of numbers. It should print every other number, starting with the number at index 0
+print('Every Other')
+
 def every_other(list_num):
     """Function wil take in a list if numbers and print every other number"""
     for num in list_num[::2]:
         print(num)
+
+every_other(list_of_numbers)
+print('---------------')
 
 # Write a function that takes in a list and an item. It should return True if the list contains the item. Otherwise, return False.
 
